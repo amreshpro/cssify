@@ -101,6 +101,10 @@
   border-radius: 8px 8px 0 0;
 }
 
+.card-text{
+    margin: 20px 0 0 0;
+}
+
 .card-text .subscribe,.description{
 color: #6b6969;
 padding: 0 20px  ;
@@ -136,4 +140,36 @@ line-height: 20px;
     margin: 5px 0 5px 20px;
    font-weight: 600;
 
+}
+
+
+
+
+
+/* component-4 */
+
+.component-4,.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-box{
+    padding: 10px;
+    outline: none;
+    border : 1px solid #222;
+    border-radius: 5px;
+margin: 5px 0 5px 0;
+font-size: 16px;
+}
+
+.submit-btn{
+
+    color: #fff;
+    background-color: #000;
+    border: none;
+    padding: 10px 15px 10px 15px;
+border-radius: 25px;
+font-weight: 600;
 }
